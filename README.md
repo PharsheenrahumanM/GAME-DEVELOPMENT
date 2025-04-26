@@ -17,11 +17,13 @@ Step 4 − Calculate the increment in x coordinate and y coordinate
 Step 5 − Plot the pixel by successfully incrementing x and y coordinates accordingly and complete the drawing of the line
 
 **Program :**
+
+~~~
 #include <graphics.h>
- #include <stdio.h>
- #include <math.h>
- #include <dos.h>
- void main( )
+#include <stdio.h>
+#include <math.h>
+#include <dos.h>
+void main( )
  {
  float x,y,x1,y1,x2,y2,dx,dy,step;
  int i,gd=DETECT,gm;
@@ -54,10 +56,12 @@ printf("Enter the value of x1 and y1 : ");
  Program to implement the DDA algorithm to draw a line using a c coding
  Developed by:Pharsheen Rahuman M 
 RegisterNumber: 212224230193
-
+~~~
 
 **Output :**
 ![image](https://github.com/user-attachments/assets/f4516e79-8de1-4176-959f-478ac332beab)
 
 
 **Result :**
+ To implement the DDA algorithm to draw a line using a c coding is verified
+ successfully
